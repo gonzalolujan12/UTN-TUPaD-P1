@@ -1,0 +1,12 @@
+def fibonacci_recursivo(n):
+     if n <= 1:
+        return n
+     else:
+        return fibonacci_recursivo(n-1) + fibonacci_recursivo(n-2)
+     
+posición = 10
+valor_fibonacci = fibonacci_recursivo(posición)
+print(f"El valor de Fibonacci en la posición {posición} es: {valor_fibonacci}")
+
+
+
